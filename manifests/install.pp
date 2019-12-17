@@ -5,4 +5,11 @@
 # @example
 #   include lightdm::install
 class lightdm::install {
+  package { 'lightdm':
+    ensure => installed
+  }
+  
+  package { 'lightdm-gtk-greeter':
+    ensure => installed
+  }
 }

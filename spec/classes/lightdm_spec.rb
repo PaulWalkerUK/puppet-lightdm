@@ -6,6 +6,7 @@ describe 'lightdm' do
       let(:facts) { os_facts }
 
       it { is_expected.to compile }
+      it { is_expected.to compile.with_all_deps }
     end
   end
 end
