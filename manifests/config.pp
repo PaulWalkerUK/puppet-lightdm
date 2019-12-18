@@ -1,8 +1,7 @@
-# @summary A short summary of the purpose of this class
+# @summary A private class to configure LightDM
 #
-# A description of what this class does
+# Currently does nothing
 #
-# @example
-#   include lightdm::config
+# @api private
 class lightdm::config {
 }

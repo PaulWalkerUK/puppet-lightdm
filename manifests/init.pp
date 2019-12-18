@@ -1,6 +1,8 @@
-# @summary A short summary of the purpose of this class
+# @summary Installs and configures LightDM
 #
-# A description of what this class does
+# Sets up the LightDM desktop manager. You will (probably?) want xorg and a desktop environment an addition to this.
+#
+# @see https://github.com/canonical/lightdm
 #
 # @example
 #   include lightdm

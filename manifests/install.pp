@@ -1,9 +1,8 @@
-# @summary A short summary of the purpose of this class
+# @summary A private class to install packages for LightDM
 #
-# A description of what this class does
+# Installs `lightdm` and the `lightdm-gtk-greeter`
 #
-# @example
-#   include lightdm::install
+# @api private
 class lightdm::install {
   package { 'lightdm':
     ensure => installed

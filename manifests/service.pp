@@ -1,9 +1,8 @@
-# @summary A short summary of the purpose of this class
+# @summary A private class to manage services for LightDM
 #
-# A description of what this class does
+# Starts the `lightdm` service`
 #
-# @example
-#   include lightdm::service
+# @api private
 class lightdm::service {
   service { 'lightdm':
     ensure => running,
