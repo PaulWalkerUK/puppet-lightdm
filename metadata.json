@@ -1,10 +1,11 @@
 {
   "name": "PaulWalkerUK-lightdm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Paul Walker",
-  "summary": "",
+  "summary": "This module provides simple installation/setup of LightDM",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/PaulWalkerUK/puppet-lightdm",
+  "issues_url": "https://github.com/PaulWalkerUK/puppet-lightdm/issues",
   "dependencies": [
 
   ],
