@@ -34,10 +34,6 @@ Since there are currently no parameters, you only need: `include lightdm`.
 
 There are currently no parameters, so the only thing you can do is `include lightdm`.
 
-## Reference
-
-See [REFERENCE.md](REFERENCE.md)
-
 ## Limitations
 
 This has been designed for and tested on Arch Linux.
@@ -47,7 +43,3 @@ You will (probably) want to install xorg and a desktop envoironment for this to 
 ## Development
 
 Pull requests are welcome
-
-## Release Notes
-
-See [CHANGELOG.md](CHANGELOG.md)
